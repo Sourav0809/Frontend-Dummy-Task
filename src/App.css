@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* media Queries For diffrent screen  */
+
+/* Styles for screens up to 768px */
+@media (min-width:320px) and (max-width: 480px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+/* Styles for screens between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: 13px;
+    }
+}
